@@ -1,0 +1,12 @@
+# Created by pytest automatically.
+
+# add .vscode folder to the ignored files
+.vscode/**/*
+
+# exclude these files from being ignored
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Store VSCode versions used for testing VSCode extensions
+.vscode-test
+
