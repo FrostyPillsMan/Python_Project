@@ -1,19 +1,20 @@
 import random as random_num_guess
 
-user_attempts = 0
-rand_num_end = 10
-user_guess_lst = []
-user_attempt_lst = []
+
+user_attempts: int = 0
+rand_num_end: int = 10
+user_guess_lst: list[int] = []
+user_attempt_lst: list[int] = []
 """Represents a storage value.
 """
 
 
-def show_score(user_guess_lst : list) -> list:
+def show_score(user_guess_lst : list[int]) -> None:
     print(f"The current score is {len(user_guess_lst)} attempts") 
     # Display total number of attempts.
 
 
-def start_game(user_responds : str, user_play : str) -> str:
+def start_game(user_responds : str, user_play : str) -> None:
     rand_num = random_num_guess.randint(1, rand_num_end)
     # Random number generates from {1-10}.
     
@@ -62,10 +63,8 @@ def start_game(user_responds : str, user_play : str) -> str:
             print(err)
         # Invalid input, Outside the checking range condition.
 
-    return user_responds, user_play
-    # Exit the function.
 
-def game() -> str:
+def game() -> None:
     print("-----------------------------")
     print("welcome to the guessing game.".title())
     print("-----------------------------")
@@ -77,7 +76,6 @@ def game() -> str:
 
     if user_responds.lower() != "yes":
         print(f"I Seee... Enjoy your day, {user_play}")
-        return user_responds
     else:
         print("Let's begin!!!!")
         start_game(user_responds, user_play)
@@ -86,5 +84,4 @@ def game() -> str:
 # Run the script as a main program.
 if __name__ == "__main__":
     game()
-
 
