@@ -15,7 +15,6 @@ choice_mapping_2 = ["scissors", "paper", "rock"]
 
 def scoreboard(user_name, user_wins, computer_name, computer_wins):
     name_header = ["Username", "User Wins", "Computer Name", "Computer Wins"]
-
     score_data = [user_name, user_wins, computer_name, computer_wins]
 
     # display name header and score together.
@@ -32,7 +31,7 @@ def starting_rps():
     firstname = input("Enter your firstname : ").lower()
     lastname = input("Enter your lastname : ").lower()
     user_name = " ".join([firstname, lastname])
-    # Combine firstname and lastname to the user_name.
+    # combine firstname and lastname to the user_name.
     print("Username :", user_name)
 
     rand_value = 2
@@ -71,7 +70,7 @@ def starting_rps():
     # generates random hand_guesses from 0-2
     computer_pick = choice_mapping_2[rand_hand]
     # computer using user_string type input.
-    computer_name = input("Enter Computer name :").capitalize()
+    computer_name = input("Enter Computer name: ").capitalize()
     print("{} picked --> {}".format(computer_name, computer_pick))
     # uses string formatting to display concise value.
 
@@ -106,7 +105,7 @@ def starting_rps():
         # reset the program.
 
 
-# run the script as a main program.
+# run the program as a main script.
 if __name__ == "__main__":
     starting_rps()
 
