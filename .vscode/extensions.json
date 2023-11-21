@@ -1,0 +1,10 @@
+{
+ "recommendations": [
+  "njpwerner.autodocstring",
+  "ms-python.black-formatter",
+  "adpyke.codesnap",
+  "pkief.material-icon-theme",
+  "aaron-bond.better-comments",
+  "cardinal90.multi-cursor-case-preserve"
+ ]
+}
