@@ -5,7 +5,8 @@ Welcome to the Email Slicer, a simple Python command-line where guides you to ex
 
 # **How to Begin**:
   - Key in the email address
-  - Display extraction statement from username and Domain itself.
+  - Display extraction statement from **username** and **Domain** itself.
+  - Extraction result will shown below.
 
 # **Lesson Notes**
   - [] -> consist character range
