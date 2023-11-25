@@ -7,6 +7,8 @@ def get_pass_strength_checker():
     pass_strength = 0
 
     """
+    # Checking any values from each character type returns value of "1", with a string function. 
+
     upper_case = any([1 if c in string.ascii_uppercase else 0 for c in user_password])
     lower_case = any([1 if c in string.ascii_lowercase else 0 for c in user_password])
     digits = any([1 if c in string.digits else 0 for c in user_password])
