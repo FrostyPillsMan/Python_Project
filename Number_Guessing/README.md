@@ -5,7 +5,7 @@ Welcome to the Guessing Game, a simple Python command-line game that challenges 
 
 ## Intructions
 
-1. **Installation**: There is no specific Installation required. Ensure you have Python Installed on your system, and you can execute the script by running `python guessing_game.py` in your terminal.
+1. **Installation**: There is no specific Installation required. Ensure you have Python Installed on your system, and you can execute the script by running `python Number_Guessing game.py` in your terminal.
 
 
 2. **How to Play**:
@@ -28,7 +28,7 @@ Welcome to the Guessing Game, a simple Python command-line game that challenges 
 
 ## Usage
 
-1. Execute the script by running `python guessing_game.py`.
+1. Execute the script by running `python Number_Guessing game.py`.
 
 2. Follow the on-screen instructions to play the game.
 
