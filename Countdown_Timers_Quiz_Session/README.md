@@ -4,10 +4,10 @@
 Welcome to the Countdown Timers, a simple Python command-line where shows you basic quiz-answering based on the countdown given.
 
 1. **How to Play**:
-   - Login your fullname ->firstname & lastname
+   - Login your fullname ->**firstname** & **lastname**
    - User prompt been given to play the game (Yes/No).
    - If you choose to play:
-     - Guidance statement will be given to the player.
+     - Instructions statement will be given to the player.
      - User enter "yes" and countdown starts at 3 and game begins.
      - Answering five questions given from the screen.
    - Result of the player will be shown after the game.
@@ -30,7 +30,7 @@ Welcome to the Countdown Timers, a simple Python command-line where shows you ba
 
 2. Follow the on-screen instructions to play the game.
 
-Enjoy playing the Countdown Timers, Sir!
+Enjoy playing the Countdown Timers⌛, Sir!
 
 
 

@@ -29,7 +29,7 @@ def countdown():
         exit()
     else:
         print("Let's play!\n")
-        # continue the game process.
+        # Continue the game process.
 
     print("You have to justify the right answers for five questions given?")
     user_play = input(("Countdown begins when you say (yes) :))")).lower()
@@ -68,10 +68,10 @@ def countdown():
     if user_play_again.lower() != "y":
         print("Thank you for your time! Appreciate it😃")
         quit()
-        # exit the program.
+        # Exit the program.
     else:
         countdown()
-        # reset the program.
+        # Reset the program.
 
 
 if __name__ == "__main__":
