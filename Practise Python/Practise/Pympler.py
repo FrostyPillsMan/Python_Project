@@ -22,6 +22,6 @@ point = asizeof.asizeof(SavePoint(10, 20))
 print(point)
 
 
-point.z = 16
-print(point.z)
+"""point.z = 16
+print(point.z)"""
 # AttributeError: 'int' object has no attribute 'z'
