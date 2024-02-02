@@ -1,10 +1,17 @@
 {
- "[python]": {
+ "workbench.colorTheme": "SynthWave '84",
+ "python.analysis.typeCheckingMode": "basic", 
+  // specify the type checking mode.
+ "window.zoomLevel": 1.2,
+ "[python]": { // python section
+  "editor.rulers": [88],
   "editor.defaultFormatter": "ms-python.black-formatter",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-   "source.fixAll": "explicit"
+   "source.fixAll": "explicit",
+   "source.organizeImports": "always"
   },
+  "editor.formatOnType": true
  },
  "python.testing.pytestArgs": [
   "."
