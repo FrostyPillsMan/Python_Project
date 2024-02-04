@@ -7,6 +7,9 @@
   "aaron-bond.better-comments",
   "cardinal90.multi-cursor-case-preserve",
   "bierner.markdown-mermaid",
-  "robbowen.synthwave-vscode"
+  "robbowen.synthwave-vscode",
+  "eamodio.gitlens",
+  "ritwickdey.liveserver",
+  "formulahendry.code-runner"
  ]
 }
