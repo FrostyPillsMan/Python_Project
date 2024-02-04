@@ -11,10 +11,8 @@ all = lower + upper + numbers + symbols
 # Set password length
 length = 60
 
-password = ""
-for i in range(length):
-    password = "".join(random.sample(all, length))
-    # Return new list of password elements chosen from sequence.
+password = "".join(random.sample(all, length))
+# Return new list of password elements chosen from sequence.
 
 print(f"Your password is :", {password})
 
