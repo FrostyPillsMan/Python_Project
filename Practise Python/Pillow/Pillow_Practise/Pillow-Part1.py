@@ -25,8 +25,9 @@ def image_atrribute(image):
     size - shows width and height in pixels
     mode - shows color of the image
     """
-    image = img.format, img.size, img.mode
-    return image
+    image_properties = image.format, image.size, image.mode
+    return image_properties
+    
 
 
 def add_cross(image, colour):
@@ -77,10 +78,11 @@ if __name__ == "__main__":
         # Saves the image as a temporary file and displays it using default image viewer of the operating system.
         # scaled_image.show(title="Yamimash")
 
-        # img.save("./Practise Python/Pillow/save_new_img/Yamimash.jpeg")
+        # Creates new image in your project folder.
+        # img.save("./Practise Python/Pillow/save_new_img/Yamimash.jpeg", format="JPEG")
 
-        # image_shown = image_atrribute(img)
-        # print(image_shown)
+        # image_properties = image_atrribute(img)
+        # print(image_properties)
 
         # image_cross = add_cross(img, (255, 0, 0))
         # image_cross.show()
