@@ -29,5 +29,3 @@ print(my_deep_thought_instance.meaning_of_life)
 https://realpython.com/python-descriptors/#why-use-python-descriptors
 https://mathspp.com/blog/pydonts/describing-descriptors#:~:text=Descriptors%2C%20like%20properties%2C%20let%20you,%2C%20setter%2C%20and%20deleter%20methods.
 """
-
-
