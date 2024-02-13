@@ -10,6 +10,7 @@
   "robbowen.synthwave-vscode",
   "eamodio.gitlens",
   "ritwickdey.liveserver",
-  "formulahendry.code-runner"
+"formulahendry.code-runner",
+"almenon.arepl"
  ]
 }
