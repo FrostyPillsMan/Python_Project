@@ -2,7 +2,8 @@
 
 ----------------
 What is Assert?
---> "Built-in keyword to proactively perform sanity checks to ensure conditions are met. Program will raise error if conditions not spot-on and shown the error to the user.
+--> "Built-in keyword to proactively perform sanity checks to ensure conditions are met. 
+    Program will raise error if conditions not spot-on and shown the error to the user.
 
 --> "Commonly used in Debugging and Testing"
 
