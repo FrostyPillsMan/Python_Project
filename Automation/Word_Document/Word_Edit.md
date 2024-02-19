@@ -5,6 +5,9 @@
 ## Installation⚙️
 use the package manager [pip](https://pypi.org/project/pip/) to install *docxtpl*
 
+## Quick Reads📌
+[Uninstall Packages](https://www.activestate.com/resources/quick-reads/how-to-uninstall-python-packages/)
+
 
 ## Problem🤔
 ```python 
