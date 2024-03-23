@@ -1,6 +1,6 @@
 while True:
     try:
-        with open("data.csv") as file:
+        with open("./Practise Python/Practise/Error_Exception/data.csv") as file:
             file_read = file.readline()
     except FileNotFoundError as fnf_error:
         print(fnf_error)
@@ -9,10 +9,4 @@ while True:
     finally:
         print("The File has been executed well.")
     break
-
-
-
-
-
-
 
