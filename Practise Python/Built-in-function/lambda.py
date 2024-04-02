@@ -17,3 +17,7 @@ scores = [10, 9, 8, 7, 6, 5]
 new_scores = reduce((lambda x,y: x+y), scores)
 print(f"{new_scores= }") 
 
+# Extra Resources
+"""
+https://www.youtube.com/watch?v=fkLYJria3I4&list=PLcnkSk-5jEPc2xrAbmr4aj2BKiYKf6xeL&index=15
+"""
