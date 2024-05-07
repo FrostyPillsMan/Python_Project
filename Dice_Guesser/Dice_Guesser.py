@@ -26,17 +26,17 @@ def dice_guess(dice_guesses=0):
             else:
                 print("You got it right!")
                 dice_guesses += 1
-
         except ValueError:
             print("No names input.")
             continue
-
-        play_again = input("Do you want to continue (y/n):").lower()
-        if play_again != "y":
-            break
+        finally:
+            play_again = input("Do you want to continue (y/n):").lower()
+            if play_again != "y":
+                break
 
     print(f"Thanks for playing the game {player_name}")
 
 
 if __name__ == "__main__":
     dice_guess()
+
