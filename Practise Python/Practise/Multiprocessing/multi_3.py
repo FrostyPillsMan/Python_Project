@@ -1,4 +1,4 @@
-import requests
+import Requests.requests as requests
 import time
 import os
 import concurrent.futures
