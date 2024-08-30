@@ -2,8 +2,8 @@
 # Git
 
 ## Pushing Code Changes
-1. Status
--- shows untraceable files in Git
+1. **Status**
+shows untraceable files in Git
 
 Output:
 API.py
@@ -18,12 +18,12 @@ API.py
         ROT13.py
         Socket/
 
-2. Diff FILE_PATH
--- shows changes made to files in Git
+2. **Diff FILE_PATH**
+shows changes made to files in Git
 
-3. git commit -am "Your_Commit_Message"
--- commit the messages from the existing files
--- stages tracked changes automatically
--- Not suitable dealing with new or untracked file changes
+3. **git commit -am "Your_Commit_Message"**
+commit the messages from the existing files
+stages tracked changes automatically
+not suitable dealing with new or untracked file changes
 
 
