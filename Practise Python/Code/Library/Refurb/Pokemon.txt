@@ -1,0 +1,25 @@
+In this assignment, you are required to build a Java console program of the Pokémon Ga-Ole game. Your program should include the basic features of ‘Battle and Catch’ mode
+
+1. Start Battle and Catch
+---> Start the game by generating a random set of Pokémon that will likely appear in the
+game.
+2. Catch Time
+--> Allow player to catch and collect one out of 3 Pokémon.
+3. Depart for battle
+--> Display the details of two wild Pokémon and allow player to send two of their Pokémon
+to the battle.
+4. Let's go! Battle!
+--> The player’s and opponent’s Pokémon will take turn to attack. When the Pokémon is
+attacked, the HP will go down. When it reaches zero, the Pokémon is considered defeated. The
+effectiveness of the attack, will be decided by the factors of the defender type and move type.
+5. Catch Pokemon
+--> When a Pokémon is defeated, players can attempt to catch it using Poke Balls. Stronger
+Pokémon may require the use of more powerful Poke Balls for a successful capture.
+6. Extra Battle
+--> After "Catch Time" ends, there's a chance that an "Extra Battle" will occur! IF an Extra Battle comes up, you can continue battle! *Extra Battles happen at random
+7. Check your results! 
+--> Calculate and show the battle score (you can apply your own calculation formula).
+Allow saving the top 5 score in the top score list (in a file). And, display the top score list.
+
+Based on the files above and the requirements are been stated at the bottom, modify some changes and create a Battle class as well as show battle score  
+
