@@ -1,8 +1,7 @@
 {
  "workbench.colorTheme": "SynthWave '84",
+ "window.zoomLevel": 1.2, // specify the type checking mode
  "python.analysis.typeCheckingMode": "basic", 
-  // specify the type checking mode.
- "window.zoomLevel": 1.2,
  "[python]": { // python section
   "editor.rulers": [88],
   "editor.defaultFormatter": "ms-python.black-formatter",
@@ -19,5 +18,84 @@
  "python.testing.unittestEnabled": false,
  "python.testing.pytestEnabled": true,
  "editor.defaultFoldingRangeProvider": null,
- "editor.defaultFormatter": "ms-python.black-formatter"
+ "editor.defaultFormatter": "ms-python.black-formatter",
+
+ // editor settings
+ "editor.fontFamily": "'FiraCode NF', 'firaCode Nerd Font', 'Cascadia Code', Consolas, 'Courier New', monospace",
+ "editor.fontLigatures": true,
+
+ // menu section
+ "window.commandCenter": true,
+
+ // minimap section
+ "editor.minimap.autohide": true,
+ "editor.minimap.enabled": true,
+ "editor.minimap.renderCharacters": false,
+ "editor.minimap.scale": 1,
+ "editor.minimap.showSlider": "mouseover",
+ "editor.minimap.side": "right",
+
+ // breadcrumbs
+ "breadcrumbs.enabled": false,
+
+ // cursor style, cursor surroundings, gutter
+ "editor.cursorBlinking": "solid",
+ "editor.cursorSmoothCaretAnimation": "off",
+ "editor.cursorSurroundingLines": 10,
+ "editor.cursorSurroundingLinesStyle": "default",
+ "workbench.colorCustomizations": {
+ "editorCursor.background": "#ff930f",
+ "editorCursor.foreground": "#ff930f",
+},
+
+ // hovering delay
+ "editor.hover.delay": 300,
+ "workbench.hover.delay": 1,
+
+ // bracket pairs
+ "editor.guides.bracketPairs": true,
+ "editor.guides.bracketPairsHorizontal": "active",
+ "editor.guides.highlightActiveBracketPair": true,
+ "editor.guides.highlightActiveIndentation": true,
+ "editor.guides.indentation": true,
+ "editor.bracketPairColorization.enabled": true,
+ "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+
+ // background and foreground
+ "workbench.colorCustomizations": {
+ // "editor.lineHighlightBackground": "#ff930f",
+ "editor.lineHighlightBorder": "#9fced11f",
+ "editorCursor.background": "#ff930f",
+ "editorCursor.foreground": "#ff930f",
+ "editorLineNumber.activeForeground": "#A020F0",
+ "editorLineNumber.foreground": "#5DE23C",
+ "titleBar.activeBackground": "#000000", 
+ "titleBar.activeForeground": "#F4DB01",
+ "titleBar.inactiveBackground": "#000000",
+ "titleBar.inactiveForeground": "#ffffff",
+ "tab.activeBorder": "#F4DB01",
+ "terminal.tab.activeBorder": "#F4DB01",
+ "statusBar.background": "#000000",
+ "statusBar.debuggingBackground": "#007acc",
+ "statusBar.foreground": "#F4DB01",
+ "statusBar.noFolderBackground": "#007acc",
+},
+
+ // sticky scroll
+ "workbench.list.smoothScrolling": true,
+ "editor.fastScrollSensitivity": 5,
+ "editor.smoothScrolling": false,
+ "editor.stickyScroll.enabled": true,
+
+ // word wrap
+ "editor.wordWrap": "on",
+
+ // code lens
+ "editor.codeLens": true,
+
+ // format on  paste and save
+ "editor.formatOnPaste": true,
+ "editor.formatOnSave": true,
+ "editor.formatOnType": false,
 }
+D
