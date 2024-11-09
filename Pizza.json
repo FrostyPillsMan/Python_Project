@@ -1,0 +1,17 @@
+{
+    "pizza":[
+
+        {
+            "id": "01",
+            "name": "Neapolitan Pizza",
+            "toppings": ["Mozzarella", "Tomatoes", "Basil", "Sausage"]
+        },
+
+        {
+            "id": "02",
+            "name": "Margherita Pizza",
+            "toppings": ["Mozzarella", "Tomatoes", "Basil"]
+        }
+    ]
+}
+
