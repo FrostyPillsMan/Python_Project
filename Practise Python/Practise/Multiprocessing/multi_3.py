@@ -1,4 +1,4 @@
-import Requests.requests as requests
+import Requests.httpx as httpx
 import time
 import os
 import concurrent.futures
@@ -20,7 +20,7 @@ print("Downloading images with single process")
 
 
 def download_img(img_url):
-    img_bytes = requests.get(img_url).content
+    img_bytes = httpx.get(img_url).content
     print("Downloading...")
 
 
@@ -35,7 +35,7 @@ print("Downloading images with Multiprocess")
 
 
 def download_image(img_url):
-    img_bytes = requests.get(img_url).content
+    img_bytes = httpx.get(img_url).content
     print(f"[Process ID]:{os.getpid()} Downloading..")
 
 
